@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "../js/ne_110m.topojson",
+    "url": "https://raw.githubusercontent.com/MethmaWijerathna/Homework-Week-9/main/js/ne_110m.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "../data/Country Totals.csv"
+          "url": "https://raw.githubusercontent.com/MethmaWijerathna/Homework-Week-9/main/data/Country%20Totals.csv"
         },
         "key": "Country",
         "fields": ["Disasters"]
